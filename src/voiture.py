@@ -18,7 +18,7 @@ class Voiture:
         self.vitesse = 0
 
     def __str__(self):
-      return f"La voiture {self.nom} de couleur {self.couleur} roule à {self.vitesse} km/h."
+        return f"La voiture {self.nom} de couleur {self.couleur} roule à {self.vitesse} km/h."
     
     def accelere(self, increment) -> None:
         """Augmente la vitesse de la voiture.
